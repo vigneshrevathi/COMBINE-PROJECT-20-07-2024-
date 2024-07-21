@@ -1,0 +1,485 @@
+.container{
+    display: flex;
+    height: 72px;
+    border-bottom: dotted 3px #ddd;
+    padding-bottom: 10px;
+}
+.logo{
+    display: flex;
+    width: 50%;
+}
+.menu{
+    display: flex;
+    margin-top: 10px;
+}
+.menu-order{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+#image{
+    margin-left: 300px;
+}
+#text{
+    font-weight: lighter;
+}
+.container-wrapper{
+    display: flex;
+    margin-top: 55px;
+    gap: 18px;
+    color: white;
+    border-bottom: dotted 1px #ddd;
+}
+
+.image1{
+    width: 50%;
+    height: 530px;
+    background-color: aqua;
+    background-image: url(left-banner-image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text-content{
+    margin-left: 41px;
+    margin-top: 160px;
+}
+.content{
+    width: 50%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:279px 238px;
+    flex: auto;
+    gap: 12px;
+}
+#text1{
+    text-transform: capitalize;
+    font-size: 32px;
+}
+#button1{
+    padding: 10px;
+    background-color: unset;
+    border: solid 1px white;
+    color: white;
+}
+#image-1{
+    background-image: url(baner-right-image-01.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+#image-2{
+    background-image: url(baner-right-image-02.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+#image-3{
+    background-image: url(baner-right-image-03.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+#image-4{
+    background-image: url(baner-right-image-04.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+.third-section{
+    margin-top: 56px;
+    border-top: dotted 3px #ddd;
+    text-transform: capitalize;
+}
+.mens-section{
+    margin-left: 354px;
+    margin-top: 66px;
+}
+.mens-image{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 42px;
+}
+#previous-logo{
+    width: 45px;
+    height: 6vh;
+    background-image: url(prev.png);
+    background-image: azure;
+    margin-top: 112px;
+    border: solid 1px;
+    padding-right: 25px;
+}
+.menpic1{
+    width: 250px;
+    height: 35vh;
+    background-image: url(men-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.menpic2{
+    width: 250px;
+    height: 35vh;
+    background-image: url(men-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.menpic3{
+    width: 250px;
+    height: 35vh;
+    background-image: url(men-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#next-logo{
+    width: 45px;
+    height: 6vh;
+    background-image: url(next.png);
+    margin-top: 112px;
+    border: solid 1px;
+   
+}
+.price{
+    display: flex;
+    gap: 40px;
+    margin-left:300px;
+}
+.price1{
+    margin-left: 55px;
+}
+.price2{
+    margin-left: 80px;
+}
+.price3{
+    margin-left: 97px;
+}
+.fourth-section{
+    border-top:dotted 3px #ddd;
+    border-bottom:dotted 3px #ddd;
+}
+.women-section{
+    margin-left: 350px;
+    text-transform: capitalize;
+    margin-top: 60px;
+   
+}
+.women-pic{
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    margin-top: 50px;
+}
+#previous-logo2{
+    width: 50px;
+    height: 6vh;
+    background-image: url(prev.png);
+    border: solid 1px;
+    margin-top: 112px;
+}
+#women-pic1{
+    width: 250px;
+    height: 35vh;
+    background-image: url(women-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#women-pic2{
+    width: 250px;
+    height: 35vh;
+    background-image: url(women-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#women-pic3{
+    width: 250px;
+    height: 35vh;
+    background-image: url(women-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#next-logo2{
+    width: 50px;
+    height: 6vh;
+    background-image: url(next.png);
+    border: solid 1px;
+    margin-top: 112px;
+}
+.cost{
+    display: flex;
+}
+.cost1{
+    margin-left: 350px;
+}
+.cost2{
+    margin-left: 106px;;
+}
+.cost3{
+    margin-left: 150px;
+}
+.fifth-section{
+    margin-top: 50px;
+    border-bottom: dotted 3px #ddd;
+}
+.kids-section{
+    margin-left: 350px;
+}
+.kids-pic{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#previous-logo3{
+    width: 50px;
+    height: 6vh;
+    background-image: url(prev.png);
+    border: solid 1px;
+    margin-top: 112px;
+}
+#next-logo3{
+    width: 50px;
+    height: 6vh;
+    background-image: url(next.png);
+    border: solid 1px;
+    margin-top: 112px;
+}
+#kid1{
+    width: 250px;
+    height: 35vh;
+    background-image: url(kid-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#kid2{
+    width: 250px;
+    height: 35vh;
+    background-image: url(kid-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#kid3{
+    width: 250px;
+    height: 35vh;
+    background-image: url(kid-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.kids-content{
+    display: flex;
+}
+.costume1{
+    margin-left: 350px;
+}
+.costume2{
+    margin-left: 110px;
+}
+.costume3{
+    margin-left: 160px;
+}
+.sixth-section{
+    margin-top: 70px;
+    display: flex;
+    border-bottom: dotted 3px #ddd;  
+}
+.text-wrapper{
+    width: 50%;
+    height: 500px;
+    margin-left: 100px;
+    line-height: 28px;
+}
+#button11{
+    padding: 10px;
+    padding: 12px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: unset;
+    border: solid 1px;
+}
+
+#explore{
+    text-transform: capitalize;
+}
+.picture-wrapper{
+    width: 50%;
+    height: 500px;
+    flex: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    margin-right: 170px;
+}
+.word1,.word2{
+    text-align: center;
+    align-content: center;
+    background-color: aliceblue;
+}
+.watch{
+    background-image: url(explore-image-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.bag{
+    background-image: url(explore-image-02.jpg);
+    background-size: cover;
+}
+.seventh-section{
+    margin-top: 70px;
+    border-bottom: dotted 3px #ddd;
+    height: 450px;
+}
+.social{
+    margin-left: 170px;
+}
+.trendy-picturescontainer{
+   margin-top: 50px;
+   display: flex;
+   justify-content: center;
+}
+.trendy-pictures1{
+    width: 200px;
+    height: 30vh;
+    background-color: bisque;
+    background-image: url(instagram-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.trendy-pictures2{
+    width: 200px;
+    height: 30vh;
+    background-color: bisque;
+    background-image: url(instagram-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.trendy-pictures3{
+    width: 200px;
+    height: 30vh;
+    background-color: bisque;
+    background-image: url(instagram-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.trendy-pictures4{
+    width: 200px;
+    height: 30vh;
+    background-color: bisque;
+    background-image: url(instagram-04.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.trendy-pictures5{
+    width: 200px;
+    height: 30vh;
+    background-color: bisque;
+    background-image: url(instagram-05.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.trendy-pictures6{
+    width: 200px;
+    height: 30vh;
+    background-color: bisque;
+    background-image: url(instagram-06.jpg);
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    text-transform: capitalize;
+}
+.eight-section{
+    margin-top: 50px;
+    display: flex;
+  
+}
+.newsletter{
+    width: 50%;
+    margin-left: 200px;
+}
+#letter{
+    text-transform: capitalize;
+    font-size: 32px;
+}
+#button22{
+    padding-left: 50px;
+    padding-right: 28px;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    align-items: center;
+    background: none;
+    border: solid 1px;
+}
+.container-wrapper2{
+    display: flex;
+    width: 50%;
+    gap: 110px;
+}
+.last-section{
+    margin-top: 80px;
+    background-color: darkslategray;
+    color: white;
+}
+.logo2{
+    width: 250px;
+    height: 10vh;
+    background-image: url(logo.png);
+    background-position: center;
+    background-size: cover;
+}
+.last-text{
+    display: flex;
+    gap: 100px;;
+    justify-content: center;
+    height: 50vh;
+    margin-top: 5px;
+}
+.drag-down{
+    margin-top: 40px;
+}
+.copyright{
+    text-align: center;
+    border-top-style:inset ;
+}
+#text01{
+    font-size: 20px;
+    font-weight: bold;
+}
+.socialmedia-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    background-image: url(facebook-icon.png);
+    background-position: center;
+    background-size: 45px;
+}
+.google{
+    width: 40px;
+    height: 40px;
+    background-image: url(google+\ -\ Copy.png);
+    background-position: center;
+    background-size: 45px;
+}
+.twitter{
+    width: 40px;
+    height: 40px;
+    background-image: url(twitter-icon.png);
+    background-position: center;
+    background-size: 45px;
+}
+.linkedin{
+    width: 40px;
+    height: 40px;
+    background-image: url(linkedIn.png);
+    background-position: center;
+    background-size: 45px;
+}
